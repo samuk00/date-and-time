@@ -17,7 +17,9 @@ const App = () => {
 
   return (
     <div className='container'>
+      <h2>Today's date</h2>
       <p>{date}</p>
+      <h2>What time is it?</h2>
       <p>{time}</p>
     </div>
   );
